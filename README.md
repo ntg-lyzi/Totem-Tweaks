@@ -2,6 +2,7 @@
 
 **Description:** Helps to reduce the Totem Size
 **Author:** Lyzi
+
 **Loader:** Fabric — Minecraft 1.21.11+
 
 ## What it does
