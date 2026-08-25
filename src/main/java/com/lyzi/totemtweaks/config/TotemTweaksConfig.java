@@ -14,7 +14,7 @@ import java.nio.file.Path;
 public class TotemTweaksConfig {
 
 	private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-	private static final Path CONFIG_DIR = FabricLoader.getInstance().getConfigDir().resolve("totemtweaks");
+	private static final Path CONFIG_DIR = FabricLoader.getInstance().getConfigDir().resolve("totemtweakslyzi");
 	private static final Path CONFIG_FILE = CONFIG_DIR.resolve("config.json");
 
 	public boolean enabled = true;
