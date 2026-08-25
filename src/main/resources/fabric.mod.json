@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "totemtweaks",
+  "version": "${version}",
+  "name": "Totem Tweaks",
+  "description": "Helps to reduce the Totem Size",
+  "authors": [
+    "Lyzi"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lyzi.totemtweaks.TotemTweaksClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=1.21.9",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
